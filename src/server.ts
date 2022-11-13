@@ -1,5 +1,7 @@
 import express, {Request, Response} from 'express'
 import dotenv from 'dotenv'
+
+import getTodos from './controler/index'
 dotenv.config()
 
 const port = process.env.NODE_PORT || 3000;
